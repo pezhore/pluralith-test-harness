@@ -17,7 +17,8 @@ Vagrant Boxes:
 * Optionally, grab the latest pluralith installer.
 * Run `vagrant up` from the root of this repo.
 
-> :grey_exclamation: **Note** The Virtualbox provider does not support parallelism by default. If you want to spin up multiple boxes simultaneously, you may use some `xargs` magic:
+> :grey_exclamation: **Note**
+> The Virtualbox provider does not support parallelism by default. If you want to spin up multiple boxes simultaneously, you may use some `xargs` magic:
 > ```bash
 > grep config.vm.define Vagrantfile | awk -F'"' '{print $2}' | xargs -P2 -I {} vagrant up {}
 > ```
