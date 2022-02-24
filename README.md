@@ -14,6 +14,7 @@ Vagrant Boxes:
 * Clone this repo.
 * Install Virtualbox and the VirtuaBox Extension Pack (Links for both [here](https://www.virtualbox.org/wiki/Downloads)).
 * Install [Vagrant](https://www.vagrantup.com/docs/installation).
+* Optionally, grab the latest pluralith installer.
 * Run `vagrant up` from the root of this repo.
 
 :grey_exclamation: **Note**: The Virtualbox provider does not support parallelism by default. If you want to spin up multiple boxes simultaneously, you may use some `xargs` magic:
