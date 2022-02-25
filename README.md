@@ -16,6 +16,7 @@ Vagrant Boxes:
 * Install [Vagrant](https://www.vagrantup.com/docs/installation).
 * Optionally, grab the latest pluralith installer.
 * Run `vagrant up` from the root of this repo.
+* After testing has completed, run `vagrant destroy -f` to tear down the boxes (or alternatively, specify a specific box `vagrant destroy [ub2110|ub2004|cos85] -f`)
 
 > :grey_exclamation: **Note**
 >
