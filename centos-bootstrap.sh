@@ -6,3 +6,8 @@ sudo yum install epel-release -y
 
 sudo yum groupinstall "Server with GUI" -y
 sudo yum groupinstall "Xfce" -y
+sudo yum groupinstall "Development Tools" -y
+sudo dnf install -y kernel-devel
+
+sudo systemctl set-default graphical.target
+sudo reboot
